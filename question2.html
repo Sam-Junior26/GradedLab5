@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>MR. Surname Blender</h1>
+    <div>
+        <span>Surname:</span>
+        <input id="surname" type="text" size="20">
+    </div>
+    <div>
+        <span>Font:</span>
+        <select id="font">
+            <option>Arial</option>
+            <option>Verdana</option>
+            <option>Comic Sans MS</option>
+            <option>Times New Roman</option>
+        </select>
+    
+        <span>Color:</span>
+        <select id="color">
+            <option>Black</option>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+    
+        <input id="font-size" type="number" placeholder="Font Size" value="16">
+    </div>
+    <div>
+        <span>Position:</span>
+        <input name="postion" id="sequential" surname="pos" type="radio" value="seq">Sequential
+        <input name="postion" id="random" surname="pos" type="radio" value="rand"> Random
+        <input name="postion" id="reverse" surname="pos" type="radio" value="rev"> Reverse
+    </div>
+    <div>
+        <span>Go:</span>
+        <button id="blend-btn">Blend Now</button>
+    </div>
+    <label>Adjust Display Size:</label>
+    <input type="range" id="boxSize" min="100" max="600" value="300">
+    
+    <div id="output" style="position: relative; width: 300px; height: 100px; border: 1px solid black;"></div>
+
+
+    <script src="question2.js"></script>
+</body>
+</html>
